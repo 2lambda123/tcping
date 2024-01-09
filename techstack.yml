@@ -1,0 +1,208 @@
+repo_name: 2lambda123/tcping
+report_id: 134b5a5a0f4553e4e8d4e402f82fbdaf
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:16+00:00'
+requested_by: dependabot[bot]
+provider: github
+branch: master
+detected_tools_count: 15
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/2lambda123/tcping
+  detection_source: Repo Metadata
+- name: ScratchDB
+  description: Open source Snowflake on ClickHouse
+  website_url: https://www.scratchdb.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Big Data Tools
+  image_url: https://img.stackshare.io/service/104997/default_64f16b2ca9869cd997fc48770dfb2fbf268a56d1.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Pouriya
+  last_updated_on: 2022-06-26 17:08:50.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/tcping
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/tcping
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-04 14:26:42.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.mod
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-07-08 13:12:57.000000000 Z
+- name: crypto
+  description: Go supplementary cryptography libraries
+  package_url: https://pkg.go.dev/golang.org/x/crypto
+  version: 0.13.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: pouriyajamshidi
+  last_updated_on: 2023-09-10 13:35:25.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Pouriya
+  last_updated_on: 2022-06-10 20:23:55.000000000 Z
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 1.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Sakib
+  last_updated_on: 2023-11-12 09:51:01.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Sakib
+  last_updated_on: 2023-11-12 09:51:01.000000000 Z
+- name: go-querystring
+  description: Go-querystring is Go library for encoding structs into URL query parameters
+  package_url: https://pkg.go.dev/github.com/google/go-querystring
+  version: 1.1.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Pouriya
+  last_updated_on: 2022-06-10 20:23:55.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-11-04 14:26:33.000000000 Z
+- name: go-sqlite3
+  description: Sqlite3 driver for go using database/sql
+  package_url: https://pkg.go.dev/github.com/mattn/go-sqlite3
+  version: 1.14.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Sakib
+  last_updated_on: 2023-11-12 09:51:01.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.3.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Sakib
+  last_updated_on: 2023-11-12 09:51:01.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/2lambda123/tcping/blob/master/go.sum
+  detection_source: go.mod
+  last_updated_by: Pouriya
+  last_updated_on: 2021-08-19 17:12:31.000000000 Z
